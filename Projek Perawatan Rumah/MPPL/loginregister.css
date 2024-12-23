@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #d0f1dd, #a8ddb5); /* Gradasi hijau lembut */
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 15px rgba(0, 128, 96, 0.2); /* Bayangan hijau lembut */
+}
+
+.card-body label {
+    color: #016930; /* Hijau tua */
+    font-weight: bold;
+}
+
+.card-body input {
+    border-radius: 8px;
+    border: 1px solid #016930;
+    transition: border-color 0.3s;
+}
+
+.card-body input:focus {
+    border-color: #014722;
+    box-shadow: 0px 0px 5px rgba(1, 71, 34, 0.4);
+}
+
+.btn-primary {
+    background-color: #016930; /* Hijau tua */
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #014722; /* Hijau lebih gelap */
+}
+
+.fs-4 {
+    color: #016930;
+    font-weight: bold;
+}
+
+a.nav-link {
+    color: #016930;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: #014722;
+    text-decoration: underline;
+}
+
+.alert {
+    border-radius: 10px;
+    font-weight: bold;
+}

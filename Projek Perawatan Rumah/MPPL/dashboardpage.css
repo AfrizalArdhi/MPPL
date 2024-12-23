@@ -1,0 +1,75 @@
+    body {
+        background-color: #eafaf1; /* Warna latar belakang kehijauan */
+        font-family: 'Arial', sans-serif;
+    }
+
+    .list-group-item {
+        background-color: #ffffff;
+        border: 1px solid #a5d6a7;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .list-group-item a {
+        text-decoration: none;
+        color: #2e8b57;
+    }
+
+    .list-group-item:hover {
+        background-color: #a5d6a7;
+        color: #ffffff;
+        transform: scale(1.02); /* Efek sedikit membesar */
+    }
+
+    .container {
+        background-color: #ffffff; /* Warna latar container */
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+        padding: 20px;
+    }
+
+    h1 {
+        color: #2e8b57; /* Warna teks utama */
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #2e8b57;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn-primary:hover {
+        background-color: #256d4a;
+        transform: scale(1.05);
+    }
+
+    select, option {
+        border-color: #a5d6a7;
+    }
+
+    .list-group {
+        border: none;
+    }
+
+    .row {
+        margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .list-group-item {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+    h2 {
+        text-align: center;
+        color: #2e8b57; /* Hijau gelap untuk judul */
+        margin-bottom: 20px;
+    }

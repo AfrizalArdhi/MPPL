@@ -1,0 +1,98 @@
+        body {
+            background: linear-gradient(to right, #e8f5e9, #a5d6a7);
+            color: #004d40;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #004d40;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #ffffff !important;
+        }
+
+        .jumbotron {
+            background: url('https://images.unsplash.com/photo-1594941367750-34dcf55a1845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1500') no-repeat center center;
+            background-size: cover;
+            color: black;
+            padding: 5rem 2rem;
+            border-radius: 15px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .btn-custom {
+            background-color: #004d40;
+            color: #ffffff;
+            border-radius: 25px;
+            padding: 0.5rem 2rem;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #00332a;
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-card {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background-color: #f1f8e9;
+        }
+
+        .feature-card i {
+            font-size: 3rem;
+            color: #004d40;
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            background-color: #004d40;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+            animation: slideUp 1s ease-in-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            margin: 0 0.5rem;
+            font-size: 1.5rem;
+            transition: transform 0.2s ease, color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #a5d6a7;
+            transform: scale(1.1);
+        }
